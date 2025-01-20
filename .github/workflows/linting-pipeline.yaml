@@ -4,10 +4,10 @@ name: Linting Pipeline
 on:
   push:
     branches:
-      - '*'  # Run on all branches
+      - develop
   pull_request:
     branches:
-      - '*'  # Run on all PRs targeting any branch
+      - develop
 
 jobs:
   lint:
